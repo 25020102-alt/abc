@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #problem 70
 from math import *
 class Solution:
@@ -9,9 +10,10 @@ class Solution:
             cnt += comb(a + b, b)
         
         return cnt
-#problem 119
-from math import *
-class Solution:
+
+
+
+
     def getRow(self, rowIndex: int) -> List[int]:
         cnt = []
         
