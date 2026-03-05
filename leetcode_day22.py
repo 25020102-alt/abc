@@ -22,6 +22,5 @@ class Solution:
             cnt.append(comb(rowIndex,i))
         
         return cnt
-
-
+'problem 70 trong leetocde'
         
