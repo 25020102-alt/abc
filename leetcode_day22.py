@@ -5,7 +5,6 @@ class Solution:
         cnt = 0
 
         for i in range(n//2 + 1):
-            a = i
             b = n - 2*a
             cnt += comb(a + b, b)
         
@@ -19,7 +18,9 @@ class Solution:
         for i in range(rowIndex + 1):
             cnt.append(comb(rowIndex,i))
         
-        return cnt
+        return cnt + 1
+         
+         return jd;
 
 
         
