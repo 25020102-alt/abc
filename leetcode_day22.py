@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-#problem 70
+
 from math import *
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -7,7 +6,7 @@ class Solution:
 
         for i in range(n//2 + 1):
             b = n - 2*a
-            cnt += comb(a + b, b)
+            cnt +omb(a + b, b)
         
         return cnt
 
@@ -22,7 +21,7 @@ class Solution:
         
         return cnt + 1
          
-         return jd;
+  
 
 
         
